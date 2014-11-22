@@ -15,6 +15,7 @@ namespace MVCWithLocalDB.Models
         [MaxLength(100)]
         public string Nome { get; set; }
         [MaxLength(100)]
+        [MinLength(2)]
         public string Cognome { get; set; }
 
 
